@@ -1,0 +1,282 @@
+
+/*asosiy qism*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+/* font-family: 'Roboto Serif', sans-serif; */
+}
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+:root{
+    --text-color:#0a0a0a;
+    --list-color:rgba(130, 130, 130, 1);
+    
+}
+/*asosiy qism*/
+/*--bosh qismi---*/
+.header {
+   padding: 25px 0px;
+    position: relative;
+}
+.header ul {
+    display: flex;
+    margin-left: 252px;
+}
+
+.header ul li{
+    list-style-type: none;
+    margin-right: 140px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: var(--list-color);
+    transition: 0.2s ease;
+}
+.header ul li a:hover{
+    color: black;
+    transition: 0.2s ease;
+    border-bottom: 2px solid black;
+}
+.header hr{
+    position: absolute;
+    width: 850px;
+    height: 2px;
+    left: 250px;
+    top: 60px;
+    background-color: #0a0a0a;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/*--bosh qismi---*/
+/* bosh - qismi-qutisi*/
+.header__box{
+    position: relative;
+}
+
+.box__1{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__box .box__1 h1{
+    width: 160px;
+}
+
+.box__1 .pargraph{
+    width: 170px;
+    text-align: center;
+     margin-left: 170px; 
+     margin-right: 170px;
+}
+.box__1 span{
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+}
+.img-box{
+    position: relative;
+}
+
+.img-box img{
+    position: absolute;
+    width: 800px;
+    height: 370px;
+    left: 270px;
+    top: 200px;
+}
+/* bosh - qismi-qutisi*/
+
+/*aboute page*/
+.aboute-page{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    background-color:rgba(0, 0, 0, 0.2);
+    top: 600px;
+    left: 50px;
+}
+
+.aboute-div{
+    position: absolute;
+    top: 50px;
+    text-align: center; 
+    left: 200px;
+}
+
+.aboute-div p{
+    width: 500px;
+    margin-top: 30px;
+}
+/*aboute page*/
+
+/* Skills-page */
+.skills-page {
+    width: 1000px;
+    position: relative;
+    top: 700px;
+    left: 55px;
+}
+.skills-page  .skills-div{
+    position: absolute;
+    text-align: center;
+    left: 370px;
+}
+.skills-page .skills-div h2{
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+.skills-page .skills-div p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.skills-page .skills-img{
+    display: flex;
+}
+.skills-page .skills-img  img{
+    position: relative;
+    top: 200px;
+    left: -80px;
+    margin-left: 130px;
+}
+.skills-page .skills-img .skills__text{
+    position: relative;
+    top: 230px;
+    left: 75px;
+}
+.skills-page .skills-img .skills-img__html .icon{
+    position: relative;
+    top: 250px;
+    left: 60px;
+}
+.skills-page .skills-img .skills-img__css .icon{
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+
+.skills-page .skills-img .skills-img__js .icon{
+    position: relative;
+    top: 250px;
+    left: 70px;
+}
+
+.skills-page .skills-img .skills-img__boot .icon{
+    position: relative;
+    top: 250px;
+    left: 70px;
+}
+
+/* Skills-page */
+/* ----Portfolio-page--- */
+.portfolio-page{
+    position: relative;
+    width: 1000px;
+    left: 50px;
+    height: 500px;
+    top: 1100px;
+}
+.portfolio-page h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.portfolio-page ul{
+    position: relative;
+    left: 20px;
+    display: flex;
+    width: 1200px;
+}
+.portfolio-page ul li{
+    position: relative;
+    top: 100px;
+    list-style: none;
+    margin-right: 130px;
+}
+.portfolio-page  ul a{
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+/* ----Portfolio-page--- */
+
+/*Online fashion store - Homepage */
+.online-fashion-page{
+    position: relative;
+    top: 900px;
+    left: 200px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+.online-fashion-page a{
+    position: absolute;
+    top: -50px;
+    left: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 25px;
+    transition: 500ms all;
+}
+.online-fashion-page a:hover{
+    color: #000;
+    border-bottom: 2px solid black;
+}
+.online-fashion-page img{
+    border: 2px solid black;
+}
+/*Online fashion store - Homepage */
+/* the-end-page */
+.the-end-page{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 1000px;
+    left: 80px;
+}
+.the-end-page h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.the-end-page p{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.the-end-page a{
+    position: relative;
+    left: 430px;
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: #0a0a0a;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.the-end-page img{
+    position:relative;
+    top: 50px;
+    left: 330px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* the-end-page */
